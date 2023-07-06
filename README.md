@@ -1,12 +1,12 @@
 # Conda environment with environment.yml
 
-[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gngianni/conda_binder_GNG/r40_py311)
+[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gngianni/R_linear_modeling_assignment/HEAD)
 
 A Binder-compatible repo with an `environment.yml` file.
 
 Access this Binder by clicking the blue badge above or at the following URL:
 
-https://mybinder.org/v2/gh/gngianni/conda_binder_GNG/r40_py311
+https://mybinder.org/v2/gh/gngianni/R_linear_modeling_assignment/HEAD
 
 ## Notes
 The `environment.yml` file should list all Python libraries on which your notebooks
