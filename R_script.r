@@ -1,5 +1,9 @@
 
-filename = 'regrex1.csv'
+if(length(commandArgs()) != 2) { 
+    stop("Usage: Rscript script_name.R filename.csv")
+}
+   
+filename <- commandArgs(trailingOnly = TRUE)[1]
 
 dataset = read.csv(filename)
 
@@ -12,6 +16,8 @@ library(ggplot2)
 ggplot() +
   geom_point(aes(x = dataset$x, y = dataset$y),
              colour = 'dark red')
+png("file.png")
+dev.off()
 
 library(ggplot2)
 ggplot() +
@@ -22,3 +28,5 @@ ggplot() +
   ggtitle('Regrex1 Linear Regression') +
   xlab('x') +
   ylab('y')
+png("file.png")
+dev.off()
